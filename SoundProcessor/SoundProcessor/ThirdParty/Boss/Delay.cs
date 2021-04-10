@@ -6,7 +6,7 @@
 
         public void Initialize() => _initialized = true;
 
-        public void AddDelay(SoundTrack track)
+        public void AddDelay(Soundtrack track)
         {
             if (_initialized) 
                 track.Sound += " Adding delay as in Run Like Hell";

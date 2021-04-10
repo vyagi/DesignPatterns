@@ -8,6 +8,6 @@ namespace SoundProcessor.ThirdParty.Ibanez
 
         public Echoizer(int echoLevel) => _echoLevel = echoLevel;
 
-        public void Echoize(SoundTrack track) => track.Sound += $" Adding {string.Concat(Enumerable.Repeat("echo ", _echoLevel))}";
+        public void Echoize(Soundtrack track) => track.Sound += $" Adding {string.Concat(Enumerable.Repeat("echo ", _echoLevel))}";
     }
 }

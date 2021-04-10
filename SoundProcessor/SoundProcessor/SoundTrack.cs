@@ -1,8 +1,8 @@
 ﻿namespace SoundProcessor
 {
-    public class SoundTrack
+    public class Soundtrack
     {
-        public SoundTrack(string sound) => Sound = sound;
+        public Soundtrack(string sound) => Sound = sound;
 
         public string Sound { get; set; }
     }

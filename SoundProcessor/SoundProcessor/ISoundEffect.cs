@@ -2,6 +2,6 @@
 {
     public interface ISoundEffect
     {
-        void Apply(SoundTrack soundTrack);
+        void Apply(Soundtrack soundtrack);
     }
 }

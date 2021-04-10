@@ -4,11 +4,11 @@ namespace SoundProcessor
 {
     public class Processor
     {
-        public SoundTrack Track { get; }
+        public Soundtrack Track { get; }
 
         private readonly IList<ISoundEffect> _effects = new List<ISoundEffect>();
 
-        public Processor(SoundTrack track) => 
+        public Processor(Soundtrack track) => 
             Track = track;
 
         public void AddEffect(ISoundEffect effect) => _effects.Add(effect);

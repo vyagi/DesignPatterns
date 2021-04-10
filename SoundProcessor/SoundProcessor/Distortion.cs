@@ -2,6 +2,6 @@
 {
     public class Distortion : ISoundEffect
     {
-        public void Apply(SoundTrack soundTrack) => soundTrack.Sound += " Adding distortion as in Master of Puppets";
+        public void Apply(Soundtrack soundtrack) => soundtrack.Sound += " Adding distortion as in Master of Puppets";
     }
 }
